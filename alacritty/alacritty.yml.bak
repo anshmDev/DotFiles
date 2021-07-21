@@ -1,0 +1,46 @@
+env:
+  WINIT_X11_SCALE_FACTOR: '1.0'
+window:
+  dimensions:
+    columns: 110
+    lines: 28
+  padding:
+    x: 7
+    y: 7
+scrolling:
+  history: 1000
+  multiplier: 3
+font:
+  normal:
+    family: UbuntuMono Nerd Font Mono 
+    #family: Meslo LGS DZ Nerd Font Mono 
+    style: Regular
+  size: 17
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xffffff'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xcc0000'
+    green:   '0x4e9a06'
+    yellow:  '0xc4a000'
+    blue:    '0x3465a4'
+    magenta: '0x75507b'
+    cyan:    '0x06989a'
+    white:   '0xd3d7cf'
+
+  # Bright colors
+  bright:
+    black:   '0x555753'
+    red:     '0xef2929'
+    green:   '0x8ae234'
+    yellow:  '0xfce94f'
+    blue:    '0x729fcf'
+    magenta: '0xad7fa8'
+    cyan:    '0x34e2e2'
+    white:   '0xffffff'
+
